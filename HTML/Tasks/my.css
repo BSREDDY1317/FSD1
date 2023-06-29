@@ -1,0 +1,32 @@
+h1{
+    font-family: Copperlate, Papyrus,fantasy;
+    color: rgb(7, 40, 224);
+    font-size: 60px;
+    text-align: center;
+}
+
+.img{margin-top: -40%;
+   
+}
+.img1{
+    float: right;
+    margin-top: -12%;
+    padding-right: 2%;
+    border-radius: 80px;
+}
+
+#hr1{
+    border: 10px solid rgb(51, 14, 238);
+}
+
+hr{
+    border: 2px solid chocolate;
+}
+h2{
+    color: blue;
+    padding-top: 2%;
+}
+p{
+    font-weight: bold;
+   
+}
