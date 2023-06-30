@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_profile</title>
+
+    
+
+    <style>
+        .body{
+            background-image: url(bg.avif);
+        }
+        .name {
+          
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 100px;
+            margin-left: 32%;
+            margin-top: 8%;
+            color: white;
+            text-shadow: 7px 5px 7px blue;
+            text-decoration: underline rgb(255, 0, 0) ;
+            text-underline-offset:25px;
+            cursor: pointer;
+        }
+        #box {
+            display: flex;
+            width: 100px;
+            margin-left: 33%;
+            margin-top: -30px;
+            cursor: pointer;
+            }
+
+        .item {
+           
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 40px;
+            color: rgb(67, 66, 66);
+            
+        }
+        .item:hover{
+            color: red;
+        }
+        .item:active{
+            background-color: aqua;
+            color: white;
+         }
+         #box1 {
+            display: flex;
+            width: 100px;
+            margin-left: 39%;
+            margin-top: 120px;
+            cursor: pointer;
+            }
+
+        .item1 {
+            width: 40px;
+            margin: 0px 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            opacity: .5;
+            transition: opacity .5s;
+            
+        }
+        .item1:hover{
+            opacity: 5;
+        }
+
+
+        
+        
+
+        
+
+    </style>
+</head>
+<body class="body">
+
+    <h1 class="name">BSREDDY</h1>
+
+    <div id='box'>
+
+      <a href="education.html">  <div class='item'>Education</div></a>
+
+       <a href="hobbies.html"> <div class='item'>Hobbies</div></a>
+
+       <a href="family.html"> <div class='item'>Family</div></a>
+
+       <a href="skill.html"> <div class='item'>Skills</div></a>
+      </div>
+
+    <div id="box1">
+
+        <a href="https://www.facebook.com/login/" target="_blank"> <img src="fb.jpg" alt="facebook" class="item1"> </a>
+
+        <a href="https://www.whatsapp.com/" target="_blank"> <img src="Whatsapp_logo.jpg" alt="whats app" class="item1"> </a>
+
+        <a href="https://www.instagram.com/" target="_blank"> <img src="insta.webp" alt="instagram" class="item1"> </a>
+
+        <a href="https://twitter.com/" target="_blank"> <img src="twitter.webp" alt="" class="item1"> </a>
+
+    </div>
+    
+</body>
+</html>
